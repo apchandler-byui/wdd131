@@ -12,9 +12,9 @@ body {
   
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
   }
-  
+
   .left-sidebar {
     background: lightblue;
     grid-column: 1 / 2;
