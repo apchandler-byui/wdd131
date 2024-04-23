@@ -10,6 +10,11 @@ body {
     grid-column: 1 / 4;
   }
   
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  
   .left-sidebar {
     background: lightblue;
     grid-column: 1 / 2;
