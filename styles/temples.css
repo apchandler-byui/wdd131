@@ -66,3 +66,13 @@ figure img {
 	width: 100%;
 	height: auto;
 }
+
+footer {
+    background: wheat;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+    position: absolute;
+    bottom: 0;
+	width: 100%;
+  }
