@@ -9,7 +9,7 @@ body {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     min-height: 100vh;
 }
@@ -37,22 +37,24 @@ nav ul {
 
 #data, #weather {
     margin: 20px;
-    margin-top: 300px; /* Adjust this value to match your header's height */
+    margin-top: 250px; /* Adjust this value to match your header's height */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    flex-grow: 1; /* Added this line */
 }
 
 @media screen and (min-width: 601px) {
     body {
-        background-image: url('/images/valley.jpg');
+        background-image: url('../images/valley.jpg');
         background-size: cover;
         background-position: center;
-        padding-top: 240px; /* Adjust this value to match your header's height */
+        flex-direction: row; /* Changed this line */
     }
     #data, #weather {
         background-color: rgba(255, 255, 255, 0.8);
+        flex-grow: 1; /* Added this line */
     }
 }
 
