@@ -37,7 +37,7 @@ nav ul {
 
 #data, #weather {
     margin: 20px;
-    margin-top: 60px; /* Adjust this value to match your header's height */
+    margin-top: 300px; /* Adjust this value to match your header's height */
     display: flex;
     flex-direction: column;
     align-items: center;
