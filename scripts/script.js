@@ -1,3 +1,5 @@
+let select = document.createElement('select');
+
 const products = [
     {
         id: 'fc-1888',
