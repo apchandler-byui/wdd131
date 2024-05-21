@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+#rating {
+    display: flex;
+}
+
+#rating input[type="radio"] {
+    margin-right: 5px;
+}
+
+textarea {
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
