@@ -42,3 +42,7 @@ document.querySelector('form').addEventListener('submit', function() {
     let count = localStorage.getItem('reviewCount') || 0;
     localStorage.setItem('reviewCount', ++count);
 });
+// Copyright year and date last modified
+const footer = document.querySelector('footer');
+const date = new Date(document.lastModified);
+footer.textContent = `© ${new Date().getFullYear()} Andrew Chandler. Last modified on ${date.toLocaleDateString()}.`;
