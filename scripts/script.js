@@ -40,6 +40,3 @@ document.querySelector('form').addEventListener('submit', function() {
     let count = localStorage.getItem('reviewCount') || 0;
     localStorage.setItem('reviewCount', ++count);
 });
-
-var date = new Date(document.lastModified);
-document.getElementById('footer-content').textContent =  'This page was last modified on ' + date.toLocaleDateString() + '. Current year is ' + new Date().getFullYear() + '.';
