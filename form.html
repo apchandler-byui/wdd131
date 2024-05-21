@@ -9,7 +9,12 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <h1>Product Review</h1>
     <form method="get" action="review.html">
+        <label for="product">Product:</label>
+        <select id="product" name="product"></select>
+
+        <div>
         <div id="rating">
             <input type="radio" id="star1" name="rating" value="1" required>
             <label for="star1">☆</label>
@@ -39,7 +44,7 @@
         <textarea id="review" name="review"></textarea>
         <label for="username">User Name:</label>
         <input type="text" id="username" name="username">
-        <input type="submit" value="Submit">
+        <input type="Submit" value="Submit">
     </form>
     <footer>
         <p id="footer-content"></p>
