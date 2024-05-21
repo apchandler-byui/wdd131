@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
-    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Product review form">
+    <meta name="author" content="Andrew Chandler">
+    <title>Product Review</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <h1>Product Review</h1>
-    <form method="get" action="review.html">
-        <label for="product">Product Name:</label>
-        <select id="product" name="product" required>
-            <option value="" disabled selected>Select a Product ...</option>
-        </select>
-
-        <label for="rating">Overall Rating:</label>
-        <div id="rating">
+    <form>
+        <div>
             <input type="radio" id="star1" name="rating" value="1" required>
             <label for="star1">☆</label>
             <input type="radio" id="star2" name="rating" value="2" required>
@@ -29,8 +27,10 @@
         <input type="date" id="date" name="date" required>
 
         <label for="features">Useful Features:</label>
-        <input type="checkbox" id="features" name="features" value="feature1">Durability</input>
-        <input type="checkbox" id="features" name="features" value="feature2">Durability</input>
+        <input type="checkbox" id="feature1" name="features" value="feature1">Durability</input>
+        <input type="checkbox" id="feature2" name="features" value="feature2">Ease of Use</input>
+        <input type="checkbox" id="feature3" name="features" value="feature3">Performence</input>
+        <input type="checkbox" id="feature4" name="features" value="feature4">Design</input>
 
         <label for="review">Written Review:</label>
         <textarea id="review" name="review"></textarea>
@@ -45,6 +45,6 @@
         <p id="footer-content"></p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts/script.js" defer></script>
 </body>
 </html>
